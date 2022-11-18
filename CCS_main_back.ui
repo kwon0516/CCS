@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>922</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1300</width>
+      <height>850</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(218, 218, 163, 50);</string>
+    </property>
+    <widget class="QWidget" name="page_main">
+     <widget class="QLabel" name="label_logo">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>-20</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>CCS_logo.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_menu_background">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>160</width>
+        <height>850</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 160, 143);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>180</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>휴먼편지체</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: rgb(88, 75, 63);
+color: white;
+border-radius:25px;
+font: 16pt &quot;휴먼편지체&quot;;
+}
+
+QPushButton:hover{
+color: white;
+border-radius:25px;
+background-color: rgb(130, 120, 63)
+}</string>
+      </property>
+      <property name="text">
+       <string>메인화면</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>310</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: rgb(88, 75, 63);
+color: white;
+border-radius:25px;
+font: 16pt &quot;휴먼편지체&quot;;
+}
+
+QPushButton:hover{
+color: white;
+border-radius:25px;
+background-color: rgb(130, 120, 63)
+}</string>
+      </property>
+      <property name="text">
+       <string>고객조회</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>440</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: rgb(88, 75, 63);
+color: white;
+border-radius:25px;
+font: 16pt &quot;휴먼편지체&quot;;
+}
+
+QPushButton:hover{
+color: white;
+border-radius:25px;
+background-color: rgb(130, 120, 63)
+}</string>
+      </property>
+      <property name="text">
+       <string>고객등록</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>570</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: rgb(88, 75, 63);
+color: white;
+border-radius:25px;
+font: 16pt &quot;휴먼편지체&quot;;
+}
+
+QPushButton:hover{
+color: white;
+border-radius:25px;
+background-color: rgb(130, 120, 63)
+}</string>
+      </property>
+      <property name="text">
+       <string>옵션</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>710</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: rgb(88, 75, 63);
+color: white;
+border-radius:25px;
+font: 16pt &quot;휴먼편지체&quot;;
+}
+
+QPushButton:hover{
+color: white;
+border-radius:25px;
+background-color: rgb(130, 120, 63)
+}</string>
+      </property>
+      <property name="text">
+       <string>종료</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>320</y>
+        <width>291</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 155, 129);</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>540</y>
+        <width>291</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(158, 158, 158);</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <zorder>label_menu_background</zorder>
+     <zorder>pushButton</zorder>
+     <zorder>pushButton_2</zorder>
+     <zorder>pushButton_3</zorder>
+     <zorder>pushButton_4</zorder>
+     <zorder>pushButton_5</zorder>
+     <zorder>label_logo</zorder>
+     <zorder>label</zorder>
+     <zorder>label_2</zorder>
+    </widget>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
